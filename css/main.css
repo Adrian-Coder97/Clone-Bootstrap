@@ -1,0 +1,68 @@
+/*Seccion Navbar*/
+#navbar{
+    background: #7c54b4;
+    color: white;
+}
+.logo{
+    height: 35px;
+}
+
+
+/*Seccion download*/
+.buildfast{
+    font-size: 64px;
+    line-height: 100%;
+}
+.quickly{
+    font-size: 24px;
+}
+
+@media (max-width: 480px){
+    /*Seccion download*/
+    .buildfast{
+        font-size: 35px;
+        text-align: center;
+    }
+    .quickly{
+        font-size: 20px;
+        text-align: center;
+    }
+    .invertirColumna{
+        flex-direction: column-reverse;/*invertir el order de las columnas en una resolucion menos a 480*/
+    }
+    .getStarted{
+        width: 100%;/*expandir el boton al ancho de la pantalla en menores resoluciones*/
+    }
+    .download{
+        width: 100%;/*expandir el boton al ancho de la pantalla en menores resoluciones*/
+    }
+    /*Seccion download*/
+}
+
+@media (max-width: 767px){
+    /*Seccion download*/
+    .invertirColumna{
+        flex-direction: column-reverse;/*invertir el order de las columnas en una resolucion menos a 480*/
+    }
+    .getStarted{
+        width: 100%;/*expandir el boton al ancho de la pantalla en menores resoluciones*/
+    }
+    .download{
+        width: 100%;/*expandir el boton al ancho de la pantalla en menores resoluciones*/
+    }
+    /*Seccion download*/
+}
+@media (max-width: 900px){
+    /*Seccion download*/
+    .quickly{
+        text-align: center;
+    }
+    /*Seccion download*/
+}
+@media (max-width: 1024px){
+    /*Seccion download*/
+    .buildfast{
+        font-size: 60px;
+    }
+    /*Seccion download*/
+}
