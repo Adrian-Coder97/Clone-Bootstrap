@@ -66,3 +66,34 @@
     }
     /*Seccion download*/
 }
+
+
+
+
+/*Seccion INSTALL*/
+.tituloInstallation{
+    font-size: 50px;
+}
+
+.copiar{
+    font-size: 10px;
+}
+
+.copyFont{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 425px){
+    .tituloInstallation{
+        font-size: 30px;
+    }
+    .copiar{
+        visibility: hidden;
+    }
+
+    /*Seccion download*/
+    .buildfast{
+        font-size: 35px;
+        text-align: center;
+    }
+}
