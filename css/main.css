@@ -97,3 +97,19 @@
         text-align: center;
     }
 }
+
+/*FOOTER*/
+
+.designed{
+    font-size: 13.5px;
+}
+
+@media (max-width: 540px){
+    .designed{
+        text-align: center;
+    }
+
+    .links{
+        text-align: center;
+    }
+}
